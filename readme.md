@@ -3,7 +3,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://smtoyedeji.github.io/samueloyedeji/" target="_blank">
+    <a href="https://samueloyedeji.vercel.app/" target="_blank">
       Live Website
     </a>
     <span> | </span>
@@ -24,6 +24,7 @@
 ## Overview
 
 ![screenshot](myportfolio.png)
+![screenshotFromMobile](portfolio2.jpg)
 
 
 ### Built With
