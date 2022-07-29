@@ -1,0 +1,80 @@
+header {
+    position: fixed;
+    top:0; left:0;
+    width: 100%; 
+}
+
+.project-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.project-box{
+    grid-column: span 6;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  .project-box img {
+    z-index: 0;
+}
+
+.project-box:hover .overlay{
+  opacity: 1;
+  transform: scale(1);
+}
+
+.overlay{
+  position: absolute;
+  background-color: rgba(17, 24, 39, 0.9);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(1.3);
+  opacity: 0;
+  transition: transform .4s ease 0s;
+  z-index: 0;
+}
+
+.overlay > *{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #e5e7eb;
+  font-size: 12px;
+}
+
+.project-box img{
+  transition: transform .8s ease;
+}
+
+.project-box:hover img{
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 481px) {
+  /*Work section styles*/
+  .project-grid {
+      gap: 2rem;
+      padding: 2rem;
+  }
+  
+}
+
+@media screen and (min-width: 769px) {
+    
+    .project-box {
+        grid-column: span 3;
+    }
+    
+}
+
+@media screen and (min-width: 1025px) {
+  .project-grid {
+    gap: 3rem;
+  }
+    
+}

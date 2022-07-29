@@ -1,0 +1,238 @@
+<html lang="en" style="scroll-behavior:smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/4c81140bd8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="custom.css" rel="stylesheet">
+    <title>My Portfolio</title>
+
+</head>
+
+<body class="bg-gray-200">
+    <div class="bg-top md:bg-cover h-screen overflow-hidden bg-black bg-opacity-100" id="home" style="background-image: url(img/space.jpg)">
+        <!--content wrapper-->
+        <header class="bg-gray-700 lg:bg-transparent px-6 flex flex-wrap items-center lg:py-0 py-2 z-10">
+            <button type="button"
+                class="inline-flex text-white focus:text-white   focus:outline-none hover:text-white lg:hidden ml-auto nav-toggler"
+                data-target="#navigation">
+                <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+
+            <div class="hidden lg:flex lg:items-center lg:w-screen w-full" id="navigation">
+                <nav class="lg:w-screen">
+                    <ul
+                        class="leading-4 tracking-widest lg:flex items-center justify-center text-base text-gray-300 md:text-base pt-4 lg:pt-0">
+                        <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-yellow-700"
+                                href="#home">Home</a></li>
+                        <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-yellow-700"
+                                href="#about">About</a></li>
+                        <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-yellow-700"
+                                href="#portfolio">Portfolio</a></li>
+                        <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-yellow-700"
+                                href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+
+
+        <div class="text-center pt-48 text-4xl text-gray-400">
+            <h1 class="md:text-6xl p-10  content bg-black bg-opacity-75">Hi, I'm <br> <span
+                    class="text-white-900 uppercase md:text-6xl text-white">Samuel Oyedeji</span> <br> <span
+                    class="md:text-2xl text-xl">Frond End Developer / WordPress Expert </span></h1>
+        </div>
+    </div>
+    <!--end of nav-->
+
+    <div class="p-4 md:flex md:justify-center md:pt-24 md:px-8 md:pb-32 bg-black" id="about">
+        <div class="pt-0 md:pl-8 text-gray-600 md:leading-loose md:w-2/5">
+            <h2 class="md:text-4xl font-bold py-8 md:py-0 md:text-right">About Me</h2>
+            <p class="md:text-lg md:text-right">From my first <span class="italic">&lt;p&gt;Hello World&lt;/p&gt;</span>
+                to this
+                moment, I have come to understand that programming is more than "just a job" for me. <br>
+                <span class="text-base">The thrill that comes with the wins; and the need to continually learn and
+                    improve my skills to keep up with the fastpace moving technologies has been highly exhilarating.
+                    <br>
+                    Visit my <a href="">Github</a> profile to see some of my projects or just <a
+                        href="#contact">contact</a> me.</span>
+            </p>
+            <div class="flex md:mt-4 md:py-0 mt-4 cursor-pointer">
+                <div
+                    class="btn text-white bg-yellow-900 hover:bg-yellow-700 rounded-full tracking-widest w-32 text-center md:ml-auto">
+                    <a href="#contact">Hire Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-2/5 md:pl-16 md:mt-48">
+            <img class="rounded-full w-32 mb-2 ml-auto" src="./img/profilepicture.JPG" alt="my picture">
+            <div class="skills">
+                <h2 class="font-mono text-2xl text-white mb-4">Skills</h2>
+                <div class="skills">
+                    <h3 class="text-gray-600">HTML</h3>
+                    <div class="w-full bg-gray-200 h-px mb-6">
+                        <div class="bg-green-800 h-px" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3 class="text-gray-600">CSS</h3>
+                    <div class="w-full bg-gray-200 h-px mb-6">
+                        <div class="bg-yellow-500 h-px" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3 class="text-gray-600">JavaScript</h3>
+                    <div class="w-full bg-gray-200 h-px mb-6">
+                        <div class="bg-red-600 h-px" style="width: 69%"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3 class="text-gray-600">React</h3>
+                    <div class="w-full bg-gray-200 h-px mb-6">
+                        <div class="bg-pink-500 h-px" style="width: 55%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="bg-gray-900 p-4 md:pb-16" id="portfolio">
+        <h2 class="text-center text-2xl text-gray-500">My <span
+                class="font-mono font-black text-2xl text-white">Portfolio</span></h2>
+        <div class="project-grid">
+            <div class="text-gray-400 project-box">
+                <img src="img/teslaclone.jpg" alt="my portfolio">
+                <a href="https://smtoyedeji.github.io/teslaclone/#" target="_blank">
+                    <div class="overlay">
+                        <span>
+                            <h5 class="text-xl">Tesla Clone</h5>
+                            <p class="text-xs">Tesla cars have come to be a symbol of status, everyone's dream car. Made
+                                this tesla website clone with ReactJS.</p>
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div class="text-gray-400 project-box">
+                <img src="img/teslaclone.jpg" alt="my portfolio">
+                <a href="" target="_blank">
+                    <div class="overlay">
+                        <span>
+                            <h5 class="text-xl">My Portfolio</h5>
+                            <p class="text-sm">My personal portfolio<br>Tech stack - HTML, Tailwind, JavaScript,
+                                Firebase
+                            </p>
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div class="text-gray-400 project-box">
+                <img src="img/weatherapp.jpg" alt="my portfolio">
+                <a href="https://smtoyedeji.github.io/react-weather-app/" target="_blank">
+                    <div class="overlay">
+                        <span>
+                            <h5 class="text-xl">Weather App</h5>
+                            <p class="text-sm">You need to check out the weather of cities around the word? This app got
+                                you
+                                covered.<br>
+                                Made with React and OpenWeatherAPI </p>
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div class="text-gray-400 project-box">
+                <img src="img/landingpage.jpg" alt="my portfolio">
+                <a href="https://smtoyedeji.github.io/cr8ive.github.io/" target="_blank">
+                    <div class="overlay">
+                        <span>
+                            <h5 class="text-xl">A Landing Page</h5>
+                            <p class="text-sm">Tech stack- HTML, CSS and JavaScript</p>
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <section class="bg-black pt-12 grid md:grid-cols-2 gap-10 pr-2" id="contact">
+        <div class="max-w-2xl md:pl-16">
+            <form class="p-2 sm:max-w-sm md:max-w-lg" id="feedback-form">
+                <h3 class="p-2 m-2 text-white text-2xl">Get In Touch</h3>
+                <div class="p-2">
+                    <input type="text"
+                        class="bg-gray-500 shadow rounded w-full py-3 px-3 m-2 text-black leading-tight focus:outline-none placeholder-black"
+                        name="fullname" placeholder="Your Name" required>
+
+                    <input type="text"
+                        class="bg-gray-500 shadow rounded w-full py-3 px-3 m-2 text-black leading-tight focus:outline-none placeholder-black"
+                        name="phone" placeholder="Your Phone">
+
+                    <input type="text"
+                        class="bg-gray-500 shadow rounded w-full py-3 px-3 m-2 text-black leading-tight focus:outline-none placeholder-black"
+                        name="email" placeholder="Your Email" required>
+
+                    <textarea
+                        class="bg-gray-500 shadow rounded w-full py-3 px-3 m-2 text-black leading-tight focus:outline-none placeholder-black"
+                        name="message" cols="64" rows="10" placeholder="Write a Message"></textarea>
+
+                    <button type="submit"
+                        class="bg-yellow-900 hover:bg-yellow-600 text-white font-bold py-3 px-5 m-2 rounded-full">
+                        Send message
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="text-gray-700 md:pt-10 p-4 font-mono pb-24 md:text-left">
+            <h1 class="text-white text-2xl pt-2 pb-12">My Contact Details</h1>
+            <h3 class="pb-2">Email</h3>
+            <p class="pb-6">oyedeji.smt@gmail.com</p>
+            <h3 class="pb-2">Phone</h3>
+            <p class="pb-6">+2348031110032</p>
+            <h3 class="pb-2">Address</h3>
+            <p class="pb-6">Km 3<br>Akure-Ijoka road<br>Akure</p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 h-48">
+        <div class="flex justify-center">
+            <div
+                class="rounded-full bg-gray-500 hover:bg-gray-600 h-12 w-12 md:h-16 md:w-16 text-4xl m-6 text-yellow-900 flex items-center justify-center">
+                <a href="https://github.com/smtoyedeji" class="fa fa-github"></a>
+            </div>
+            <div
+                class="rounded-full bg-gray-500 hover:bg-gray-600 h-12 w-12 md:h-16 md:w-16 text-4xl m-6 text-yellow-900 flex items-center justify-center">
+                <a href="https://www.linkedin.com/in/samuel-oyedeji-21009a225/" class="fa fa-linkedin"></a>
+            </div>
+            <div
+                class="rounded-full bg-gray-500 hover:bg-gray-600 h-12 w-12 md:h-16 md:w-16 text-4xl m-6 text-yellow-900 flex items-center justify-center">
+                <a href="https://twitter.com/oyedeji__" class="fa fa-twitter"></a>
+            </div>
+            <div
+                class="rounded-full bg-gray-500 hover:bg-gray-600 h-12 w-12 md:h-16 md:w-16 text-4xl m-6 text-yellow-900 flex items-center justify-center">
+                <a href="#" class="fa fa-facebook"></a>
+            </div>
+        </div>
+        <p class="text-center">Copyright &copy; Samuel oyedeji 2022.</p>
+    </footer>
+
+    <script src="bundle.js"></script>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
