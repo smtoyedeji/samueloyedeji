@@ -13,7 +13,7 @@
 </head>
 
 <body class="bg-gray-200">
-    <div class="bg-top md:bg-cover h-screen overflow-hidden bg-black bg-opacity-100" id="home" style="background-image: url(img/space.jpg)">
+    <div class="bg-top bg-contain h-screen overflow-hidden" id="home" style="background-image: url(img/bg.jpg)">
         <!--content wrapper-->
         <header class="bg-gray-700 lg:bg-transparent px-6 flex flex-wrap items-center lg:py-0 py-2 z-10">
             <button type="button"
@@ -43,15 +43,18 @@
 
 
 
-        <div class="text-center pt-48 text-4xl text-gray-400">
-            <h1 class="md:text-6xl p-10  content bg-black bg-opacity-75">Hi, I'm <br> <span
-                    class="text-white-900 uppercase md:text-6xl text-white">Samuel Oyedeji</span> <br> <span
-                    class="md:text-2xl text-xl">Frond End Developer / WordPress Expert </span></h1>
+        <div class="text-center mt-48 p-10 leading-10 text-4xl text-gray-400 bg-black bg-opacity-75">
+            <h6 class="md:text-6xl mb-2">Hi, I'm</h6>
+            <h1 class="text-white-900 md:text-6xl text-white mb-2">Samuel Oyedeji</h1>
+            <h6 class="md:text-xl text-sm">Front End Developer / ReactJS</h6>
         </div>
+        <svg class="animate-bounce w-6 h-6 ...">
+            <!-- ... -->
+          </svg>
     </div>
     <!--end of nav-->
 
-    <div class="p-4 md:flex md:justify-center md:pt-24 md:px-8 md:pb-32 bg-black" id="about">
+    <div class="p-8 md:flex md:justify-center md:pt-24 md:px-8 md:pb-32 bg-black" id="about">
         <div class="pt-0 md:pl-8 text-gray-600 md:leading-loose md:w-2/5">
             <h2 class="md:text-4xl font-bold py-8 md:py-0 md:text-right">About Me</h2>
             <p class="md:text-lg md:text-right">From my first <span class="italic">&lt;p&gt;Hello World&lt;/p&gt;</span>
@@ -70,8 +73,8 @@
                 </div>
             </div>
         </div>
-        <div class="p-4 md:w-2/5 md:pl-16 md:mt-48">
-            <img class="rounded-full w-32 mb-2 ml-auto" src="./img/profilepicture.JPG" alt="my picture">
+        <div class="md:w-2/5 md:pl-16 md:mt-48">
+            <img class="rounded-full w-32 mb-2 ml-auto" src="./img/profilepic.jpg" alt="my picture">
             <div class="skills">
                 <h2 class="font-mono text-2xl text-white mb-4">Skills</h2>
                 <div class="skills">
@@ -168,7 +171,7 @@
 
     </div>
 
-    <section class="bg-black pt-12 grid md:grid-cols-2 gap-10 pr-2" id="contact">
+    <section class="bg-black pt-12 grid md:grid-cols-2 gap-10 pl-6" id="contact">
         <div class="max-w-2xl md:pl-16">
             <form class="p-2 sm:max-w-sm md:max-w-lg" id="feedback-form">
                 <h3 class="p-2 m-2 text-white text-2xl">Get In Touch</h3>

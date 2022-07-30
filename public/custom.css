@@ -55,6 +55,7 @@ header {
   transform: scale(1.1);
 }
 
+
 @media screen and (min-width: 481px) {
   /*Work section styles*/
   .project-grid {
