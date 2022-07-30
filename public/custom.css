@@ -79,3 +79,16 @@ header {
   }
     
 }
+
+/* scroll fade behaviour */
+.scroll {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+ 
+.scroll.scrolled {
+  opacity: 1;
+  transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s, 3s, 5s;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}

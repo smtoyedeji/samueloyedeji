@@ -13,9 +13,9 @@
 </head>
 
 <body class="bg-gray-200">
-    <div class="bg-top bg-contain h-screen overflow-hidden" id="home" style="background-image: url(img/background.jpg)">
+    <div class="bg-top bg-cover h-screen bg-black bg-opacity-100 overflow-hidden" id="home" style="background-image: url(img/lautaroandreani-xkBaqlcqeb4-unsplash.jpg)">
         <!--content wrapper-->
-        <header class="bg-gray-700 lg:bg-transparent px-6 flex flex-wrap items-center lg:py-0 py-2 z-10">
+        <header class="bg-gray-700 lg:bg-transparent px-6 flex flex-wrap items-center lg:py-0 py-2 z-10 bg-black bg-opacity-75">
             <button type="button"
                 class="inline-flex text-white focus:text-white   focus:outline-none hover:text-white lg:hidden ml-auto nav-toggler"
                 data-target="#navigation">
@@ -43,7 +43,7 @@
 
 
 
-        <div class="text-center mt-48 p-10 leading-10 text-4xl text-white bg-black bg-opacity-75">
+        <div class="text-center mt-56 p-10 leading-10 text-4xl text-white bg-black bg-opacity-75 md:mt-48">
             <h6 class="md:text-4xl mb-2">Hi, I'm</h6>
             <h1 class="text-white-900 md:text-6xl text-white mb-2">Samuel Oyedeji</h1>
             <h6 class="md:text-xl text-sm">Front End Developer / ReactJS</h6>
@@ -65,13 +65,13 @@
             </p>
             <div class="flex md:mt-4 md:py-0 mt-4 cursor-pointer">
                 <div
-                    class="btn text-white bg-yellow-900 hover:bg-yellow-700 rounded-full tracking-widest w-32 text-center md:ml-auto">
+                    class="btn text-white bg-yellow-900 hover:bg-yellow-700 rounded-full tracking-widest w-32 text-center md:ml-auto scroll">
                     <a href="#contact">Hire Me</a>
                 </div>
             </div>
         </div>
         <div class="md:w-2/5 md:pl-16 md:mt-48">
-            <img class="rounded-full w-32 mb-2 ml-auto" src="./img/profilepic.jpg" alt="my picture">
+            <img class="rounded-full w-32 mb-2 ml-auto scroll" src="./img/profilepic.jpg" alt="my picture">
             <div class="skills">
                 <h2 class="font-mono text-2xl text-white mb-4">Skills</h2>
                 <div class="skills">
@@ -109,7 +109,7 @@
                 class="font-mono font-black text-2xl text-white">Portfolio</span></h2>
         <div class="project-grid">
             <div class="text-gray-400 project-box">
-                <img src="img/teslaclone.jpg" alt="tesla clone">
+                <img src="img/teslaclone.jpg" class="scroll" alt="tesla clone">
                 <a href="https://smtoyedeji.github.io/teslaclone/#" target="_blank">
                     <div class="overlay">
                         <span>
@@ -122,7 +122,7 @@
                 </a>
             </div>
             <div class="text-gray-400 project-box">
-                <img src="img/portfolio.jpg" alt="my portfolio">
+                <img src="img/portfolio.jpg" class="scroll" alt="my portfolio">
                 <a href="" target="_blank">
                     <div class="overlay">
                         <span>
@@ -136,7 +136,7 @@
                 </a>
             </div>
             <div class="text-gray-400 project-box">
-                <img src="img/weatherapp.jpg" alt="weather app">
+                <img src="img/weatherapp.jpg" class="scroll" alt="weather app">
                 <a href="https://smtoyedeji.github.io/react-weather-app/" target="_blank">
                     <div class="overlay">
                         <span>
@@ -151,7 +151,7 @@
                 </a>
             </div>
             <div class="text-gray-400 project-box">
-                <img src="img/landingpage.jpg" alt="landing page">
+                <img src="img/landingpage.jpg" class="scroll" alt="landing page">
                 <a href="https://smtoyedeji.github.io/cr8ive.github.io/" target="_blank">
                     <div class="overlay">
                         <span>
@@ -190,7 +190,7 @@
                         name="message" cols="64" rows="10" placeholder="Write a Message"></textarea>
 
                     <button type="submit"
-                        class="bg-yellow-900 hover:bg-yellow-600 text-white font-bold py-3 px-5 m-2 rounded-full">
+                        class="bg-yellow-900 hover:bg-yellow-600 text-white font-bold py-3 px-5 m-2 rounded-full scroll">
                         Send message
                     </button>
                 </div>
@@ -211,19 +211,19 @@
     <footer class="bg-gray-900 h-48">
         <div class="flex justify-center">
             <div
-                class="rounded-full bg-gray-500 hover:bg-gray-600 h-12 w-12 md:h-16 md:w-16 text-4xl m-6 text-yellow-900 flex items-center justify-center">
+                class="rounded-full bg-gray-500 hover:bg-gray-600 h-12 w-12 md:h-16 md:w-16 text-4xl m-6 text-yellow-900 flex items-center justify-center scroll">
                 <a href="https://github.com/smtoyedeji" class="fa fa-github"></a>
             </div>
             <div
-                class="rounded-full bg-gray-500 hover:bg-gray-600 h-12 w-12 md:h-16 md:w-16 text-4xl m-6 text-yellow-900 flex items-center justify-center">
+                class="rounded-full bg-gray-500 hover:bg-gray-600 h-12 w-12 md:h-16 md:w-16 text-4xl m-6 text-yellow-900 flex items-center justify-center scroll">
                 <a href="https://www.linkedin.com/in/samuel-oyedeji-21009a225/" class="fa fa-linkedin"></a>
             </div>
             <div
-                class="rounded-full bg-gray-500 hover:bg-gray-600 h-12 w-12 md:h-16 md:w-16 text-4xl m-6 text-yellow-900 flex items-center justify-center">
+                class="rounded-full bg-gray-500 hover:bg-gray-600 h-12 w-12 md:h-16 md:w-16 text-4xl m-6 text-yellow-900 flex items-center justify-center scroll">
                 <a href="https://twitter.com/oyedeji__" class="fa fa-twitter"></a>
             </div>
             <div
-                class="rounded-full bg-gray-500 hover:bg-gray-600 h-12 w-12 md:h-16 md:w-16 text-4xl m-6 text-yellow-900 flex items-center justify-center">
+                class="rounded-full bg-gray-500 hover:bg-gray-600 h-12 w-12 md:h-16 md:w-16 text-4xl m-6 text-yellow-900 flex items-center justify-center scroll">
                 <a href="#" class="fa fa-facebook"></a>
             </div>
         </div>
