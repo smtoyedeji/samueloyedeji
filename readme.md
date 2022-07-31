@@ -22,8 +22,6 @@
 
 
 ## Overview
-
-![screenshot](myportfolio.png)
 ![screenshotFromMobile](portfolio2.jpg)
 
 
