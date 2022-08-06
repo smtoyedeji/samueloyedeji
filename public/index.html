@@ -13,11 +13,11 @@
 </head>
 
 <body class="bg-gray-200">
-    <div class="bg-top bg-cover h-screen bg-gray-700 bg-opacity-75 overflow-hidden" id="home" style="background-image: url(img/lautaroandreani-xkBaqlcqeb4-unsplash.jpg)">
+    <div>
         <!--content wrapper-->
-        <header class="bg-gray-700 bg-opacity-75 lg:bg-transparent px-6 flex flex-wrap items-center lg:py-0 py-2 z-10">
+        <header class="bg-transparent lg:bg-transparent px-6 flex flex-wrap items-center lg:py-0 py-2 z-10">
             <button type="button"
-                class="inline-flex text-white focus:text-white   focus:outline-none hover:text-white lg:hidden ml-auto nav-toggler"
+                class="inline-flex text-white focus:text-white  focus:outline-none hover:text-white lg:hidden ml-auto nav-toggler"
                 data-target="#navigation">
                 <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
@@ -40,19 +40,24 @@
                     </ul>
                 </nav>
         </header>
-
-
-
-        <div class="text-center mt-56 p-10 leading-10 text-4xl text-gray-100 bg-black bg-opacity-75 md:mt-48">
-            <h6 class="md:text-4xl mb-2">Hi, I'm</h6>
-            <h1 class="md:text-6xl text-white mb-2">Samuel Oyedeji</h1>
-            <h6 class="md:text-xl text-sm">Front End Developer / ReactJS</h6>
-        </div>
     </div>
     <!--end of nav-->
+    <div class="text-gray-100 bg-top bg-cover h-screen overflow- backdrop-brightness-0" id="home" style="background-image: url(img/background-image.JPG)">
+        <div class="text-center pt-56 p-10 leading-10 text-4xl text-gray-100 md:pt-48 backdrop-blur-sm h-screen">
+            <h1 class="md:text-7xl text-white mb-2 tracking-wide drop-shadow-2xl">Samuel Oyedeji</h1>
+            <h6 class="md:text-xl text-sm">Frontend Developer </h6>
+            <hr class="mt-6 mx-auto max-w-xl text-center text-center">
+            <div class="auto-text mt-4">
+                <h3 class="text">
+                    <span id="autotype"></span>
+                </h3>
+            </div>
+        </div>
+    </div>
+    
 
     <div class="p-8 md:flex md:justify-center md:pt-24 md:px-8 md:pb-32 bg-black" id="about">
-        <div class="pt-0 md:pl-8 text-gray-600 md:leading-loose md:w-2/5">
+        <div class="pt-0 md:pl-8 text-gray-300 md:leading-loose md:w-2/5">
             <h2 class="md:text-4xl font-bold py-8 md:py-0 md:text-right">About Me</h2>
             <p class="md:text-lg md:text-right">From my first <span class="italic">&lt;p&gt;Hello World&lt;/p&gt;</span>
                 to this
@@ -73,7 +78,7 @@
         <div class="md:w-2/5 md:pl-16 md:mt-48">
             <img class="rounded-full w-32 mb-2 ml-auto scroll" src="./img/profilepic.png" alt="my picture">
             <div class="skills">
-                <h2 class="font-mono text-2xl text-white mb-4">Skills</h2>
+                <h2 class="font-mono text-2xl text-gray-300 mb-4">Skills</h2>
                 <div class="skills">
                     <h3 class="text-gray-600">HTML</h3>
                     <div class="w-full bg-gray-200 h-px mb-6">
@@ -109,6 +114,21 @@
                 class="font-mono font-black text-2xl text-white">Portfolio</span></h2>
         <div class="project-grid">
             <div class="text-gray-400 project-box">
+                <img src="img/weatherapp.jpg" class="scroll" alt="weather app">
+                <a href="https://smtoyedeji.github.io/react-weather-app/" target="_blank">
+                    <div class="overlay">
+                        <span>
+                            <h5 class="text-xl">Weather App</h5>
+                            <p class="text-sm">You need to check out the weather of cities around the word? This app got
+                                you
+                                covered.<br>
+                                Made with React and OpenWeatherAPI </p>
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div class="text-gray-400 project-box">
                 <img src="img/teslaclone.jpg" class="scroll" alt="tesla clone">
                 <a href="https://smtoyedeji.github.io/teslaclone/#" target="_blank">
                     <div class="overlay">
@@ -136,21 +156,6 @@
                 </a>
             </div>
             <div class="text-gray-400 project-box">
-                <img src="img/weatherapp.jpg" class="scroll" alt="weather app">
-                <a href="https://smtoyedeji.github.io/react-weather-app/" target="_blank">
-                    <div class="overlay">
-                        <span>
-                            <h5 class="text-xl">Weather App</h5>
-                            <p class="text-sm">You need to check out the weather of cities around the word? This app got
-                                you
-                                covered.<br>
-                                Made with React and OpenWeatherAPI </p>
-                            <i class="fa fa-link" aria-hidden="true"></i>
-                        </span>
-                    </div>
-                </a>
-            </div>
-            <div class="text-gray-400 project-box">
                 <img src="img/landingpage.jpg" class="scroll" alt="landing page">
                 <a href="https://smtoyedeji.github.io/cr8ive.github.io/" target="_blank">
                     <div class="overlay">
@@ -168,7 +173,7 @@
 
     </div>
 
-    <section class="bg-black pt-12 pr-4 w-full grid md:grid-cols-2 gap-10" id="contact">
+    <section class="bg-black pt-12 px-4 w-full grid md:grid-cols-2 gap-10" id="contact">
         <div class="max-w-2xl md:pl-16">
             <form class="sm:max-w-sm md:max-w-lg" id="feedback-form">
                 <h3 class="m-2 text-white text-2xl">Get In Touch</h3>
@@ -197,13 +202,13 @@
             </form>
         </div>
 
-        <div class="text-gray-700 md:pt-10 p-4 font-mono pb-24 md:text-left">
-            <h1 class="text-white text-2xl pt-2 pb-12">My Contact Details</h1>
-            <h3 class="pb-2">Email</h3>
-            <p class="pb-6">oyedeji.smt@gmail.com</p>
-            <h3 class="pb-2">Phone</h3>
+        <div class="text-gray-300 md:pt-10 p-4 font-mono pb-24 md:text-left">
+            <h1 class="text-2xl pt-2 pb-12">My Contact Details</h1>
+            <h3 class="pb-2 text-gray-600">Email</h3>
+            <p class="pb-6 text-gray-200">oyedeji.smt@gmail.com</p>
+            <h3 class="pb-2 text-gray-600">Phone</h3>
             <p class="pb-6">+2348031110032</p>
-            <h3 class="pb-2">Address</h3>
+            <h3 class="pb-2 text-gray-600">Address</h3>
             <p class="pb-6">Km 3<br>Akure-Ijoka road<br>Akure</p>
         </div>
     </section>
@@ -227,7 +232,7 @@
                 <a href="#" class="fa fa-facebook"></a>
             </div> -->
         </div>
-        <p class="text-center">Copyright &copy; Samuel Oyedeji 2022.</p>
+        <p class="text-center text-gray-600">Copyright &copy; Samuel Oyedeji 2022.</p>
     </footer>
 
     <script src="bundle.js"></script>
