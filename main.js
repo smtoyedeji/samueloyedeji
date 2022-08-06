@@ -43,6 +43,15 @@ getDocs(feedbackRef)
 
 // add feedback
 const feedbackForm = document.querySelector("#feedback-form");
+const button = document.querySelector("#feedback-form button");
+
+//add event listener to form submit button
+feedbackForm.addEventListener("keyup", (e) => {
+    button.innerHTML = "Send message";
+})
+
+
+
 feedbackForm.addEventListener("submit", (e) => {
     e.preventDefault();
     addDoc(feedbackRef, {
@@ -53,6 +62,7 @@ feedbackForm.addEventListener("submit", (e) => {
     })
     .then(() => {
         feedbackForm.reset();
+        button.innerHTML = "Message sent"
     })
     .catch((err) => {
         console.log(err.message);

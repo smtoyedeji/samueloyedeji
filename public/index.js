@@ -1,5 +1,3 @@
-//abiyaj@classvisa.com
-
 $(document).ready(function () {
     $(".nav-toggler").each(function(_, navToggler) {
         let target = $(navToggler).data("target");
